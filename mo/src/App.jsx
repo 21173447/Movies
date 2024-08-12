@@ -1,10 +1,11 @@
-// eslint-disable-next-line no-unused-vars
-import react from 'react'
+import React from 'react'
+
 import './App.css'
 import NavBar from './Components/NavBar'
 import Latest from './Components/Latest'
 import Series from './Components/Series'
 import Footer from './Components/Footer'
+import AddMovies from './Components/AddMovies'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <NavBar />
       <Latest />
       <Series/>
+     <AddMovies/>
       <Footer/>
 
 

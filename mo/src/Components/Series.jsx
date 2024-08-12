@@ -39,7 +39,7 @@ const Series = () => {
                         <img
                             src={series.poster}
                             alt={series.title}
-                            className="w-60 h-full object-cover"/>
+                            className="w-full h-full object-cover"/>
                     </div>
                 ))}
             </div>
