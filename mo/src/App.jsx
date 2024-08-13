@@ -6,7 +6,7 @@ import Latest from './Components/Latest'
 import Series from './Components/Series'
 import Footer from './Components/Footer'
 import AddMovies from './Components/AddMovies'
-
+import Card from './Components/Card'
 
 function App() {
 
@@ -20,7 +20,10 @@ function App() {
       <Latest />
       <Series/>
      <AddMovies/>
+      <Card/>
       <Footer/>
+
+      
 
 
     </div>

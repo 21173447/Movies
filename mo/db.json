@@ -1,0 +1,39 @@
+{
+    "movies": [
+      { "id": 1, "poster": "src/images/avengers.png", "title": "Avengers: Endgame", "description": "After the devastating events of Avengers: Infinity War...", "year": "2019", "country": "USA" },
+      { "id": 2, "poster": "src/images/a-hidden-life-poster.png", "title": "A Hidden Life", "description": "A drama about an Austrian farmer...", "year": "2019", "country": "Austria" },
+      { "id": 3, "poster": "src/images/death-of-dick-long.png", "title": "The Death of Dick Long", "description": "A dark comedy about a tragic accident...", "year": "2019", "country": "USA" },
+      { "id": 4, "poster": "src/images/nightingale-1.png", "title": "The Nightingale", "description": "A revenge thriller set in 1825...", "year": "2018", "country": "Australia" },
+      { "id": 5, "poster": "src/images/JokerPoster1200_5ca3c435318d42.29270548.png", "title": "Joker", "description": "A psychological thriller about the origins of the Joker...", "year": "2019", "country": "USA" },
+      { "id": 6, "poster": "src/images/wonder-woman-1984.png", "title": "Wonder Woman 1984", "description": "The sequel to Wonder Woman...", "year": "2020", "country": "USA" },
+      { "id": 7, "poster": "src/images/john-wick-chapter-three.png", "title": "John Wick", "description": "An action-packed thriller about a retired hitman...", "year": "2014", "country": "USA" },
+      { "id": 8, "poster": "src/images/us-1.png", "title": "Us", "description": "A horror film about doppelgängers...", "year": "2019", "country": "USA" },
+      { "id": 9, "poster": "src/images/abigail_ver2_xlg.jpg", "title": "Abigail", "description": "A fantasy adventure set in a dystopian city...", "year": "2019", "country": "Russia" },
+      { "id": 10, "poster": "src/images/above_the_trees_xlg.jpg", "title": "Above the Trees", "description": "A documentary exploring the beauty of nature...", "year": "2020", "country": "USA" },
+      { "id": 11, "poster": "src/images/deadpool_and_wolverine_ver3.jpg", "title": "Deadpool & Wolverine", "description": "A fan-made crossover featuring Deadpool and Wolverine...", "year": "2020", "country": "USA" },
+      { "id": 12, "poster": "src/images/garfield_movie_ver5_xlg.jpg", "title": "Garfield the Movie", "description": "A live-action adaptation of the Garfield comics...", "year": "2004", "country": "USA" },
+      { "id": 13, "poster": "src/images/lazareth_xlg.jpg", "title": "Lazareth", "description": "A sci-fi film about a man with a mysterious past...", "year": "2021", "country": "France" },
+      { "id": 14, "poster": "src/images/laroy_texas.jpg", "title": "Laroy Texas", "description": "A drama about a family in Texas...", "year": "2021", "country": "USA" },
+      { "id": 15, "poster": "src/images/quiet_place_day_one_ver3.jpg", "title": "A Quiet Place: Day One", "description": "A prequel to A Quiet Place...", "year": "2024", "country": "USA" },
+      { "id": 16, "poster": "src/images/get_out_ver2_xlg.jpg", "title": "Get Out", "description": "A psychological thriller about racial tensions...", "year": "2017", "country": "USA" }
+    ],
+    "series": [
+      { "id": 1, "poster": "src/images/61g+uzL0ohL._AC_SX679_.png", "title": "Wednesday", "description": "A new take on the classic Addams Family character." },
+      { "id": 2, "poster": "src/images/altered carbon.png", "title": "Altered Carbon", "description": "A sci-fi series set in a future where consciousness can be transferred to different bodies." },
+      { "id": 3, "poster": "src/images/dark.png", "title": "Dark", "description": "A German sci-fi thriller involving time travel and family secrets." },
+      { "id": 4, "poster": "src/images/fallout-2024-textless-official-posters-for-amazon-prime-v0-rtl87qakzxmc1.png", "title": "Fallout", "description": "A post-apocalyptic drama series based on the popular video game franchise." },
+      { "id": 5, "poster": "src/images/loki-1269834.png", "title": "Loki", "description": "The adventures of Loki, the God of Mischief, in the Marvel Cinematic Universe." },
+      { "id": 6, "poster": "src/images/only murder.png", "title": "Only Murders in the Building", "description": "A comedy series about three strangers who start a podcast to solve a murder." },
+      { "id": 7, "poster": "src/images/RickandMortyPortalposter_1024x1024@2x.png", "title": "Rick & Morty", "description": "An animated series about the adventures of a mad scientist and his grandson." },
+      { "id": 8, "poster": "src/images/61OnotmyHiL._AC_UF1000,1000_QL80_.png", "title": "The Last of Us", "description": "A post-apocalyptic drama based on the acclaimed video game." },
+      { "id": 9, "poster": "src/images/uV65yaFkw6B4KHXAsBYui0KvJq.jpg", "title": "From", "description": "A mystery series about a small town with a dark secret." },
+      { "id": 10, "poster": "src/images/tb.jpg", "title": "The Boys", "description": "A dark take on superhero culture focusing on a group of vigilantes." },
+      { "id": 11, "poster": "src/images/ooBGRQBdbGzBxAVfExiO8r7kloA.jpg", "title": "The Big Bang Theory", "description": "A sitcom about a group of nerdy friends and their interactions." },
+      { "id": 12, "poster": "src/images/qIhsuhoIYR5yTnDta0IL4senbeN.jpg", "title": "The Good Place", "description": "A comedy about a woman who finds herself in the afterlife and tries to become a better person." },
+      { "id": 13, "poster": "src/images/uyDIWMAwfLqiIz0QQm0MPDE0085.jpg", "title": "Extraordinary", "description": "A British comedy-drama about a woman with superpowers." },
+      { "id": 14, "poster": "src/images/rubaKfmdCvWGPXErgW9aQsgzKVr.jpg", "title": "Parasyte: The Maxim", "description": "An anime series about a teenager who fights parasites that take over human bodies." },
+      { "id": 15, "poster": "src/images/pmZJLblxXTQr0I1G7jllA64ZOuu.jpg", "title": "Classroom of the Elite", "description": "An anime series set in a high school where students are ranked based on their abilities." },
+      { "id": 16, "poster": "src/images/0ueu3p4xw8481.jpg", "title": "Arcane: League of Legends", "description": "An animated series set in the League of Legends universe, exploring the origins of iconic characters from the game." }
+    ]
+  }
+  
