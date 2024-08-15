@@ -1,15 +1,14 @@
-// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import img from '../Images/Rectangle 1.png';
 
 const NavBar = () => {
   return (
-    <div>
-        <header
-        className="bg-cover bg-center h-96"
-        style={{ backgroundImage: `url(${img})` }}
-      >
-        <nav className="flex justify-between items-center w-[90%] mx-[6%] py-8 text-2xl">
+    <header
+      className="bg-cover bg-center h-96 relative"
+      style={{ backgroundImage: `url(${img})` }}
+    >
+      <nav className="flex flex-col justify-between items-center w-[90%] mx-[5%] py-8 text-2xl relative z-10">
+        <div className="flex justify-between w-full">
           <div>
             <span className="text-blue-400">Enter-</span>
             <span className="text-white">Stream</span>
@@ -22,8 +21,8 @@ const NavBar = () => {
                   MOVIES
                 </a>
               </li>
-               <li>
-                <a className="hover:text-gray-500 text-white " href="#">
+              <li>
+                <a className="hover:text-gray-500 text-white" href="#">
                   SERIES
                 </a>
               </li>
@@ -35,9 +34,11 @@ const NavBar = () => {
               SUBSCRIBE
             </button>
           </div>
-        </nav>
-      </header>
-    </div>
+        </div>
+
+      
+      </nav>
+    </header>
   );
 };
 

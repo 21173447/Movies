@@ -1,11 +1,11 @@
-// eslint-disable-next-line no-unused-vars
-import React from 'react'
+// src/Components/Footer.jsx
+import React from 'react';
 
 const Footer = () => {
   return (
     <footer className='bg-gray-100'>
       <nav className="flex justify-between items-center w-[90%] mx-auto py-8 text-2xl">
-        <div className=' text-gray-600 font-bold'>
+        <div className='text-gray-600 font-bold'>
           Enter-Stream
         </div>
 
@@ -25,13 +25,13 @@ const Footer = () => {
         </div>
 
         <div className="flex items-center gap-6">
-          <h5 className=" text-black px-5 py-1 hover:bg-[#87acec] text-sm">
+          <h5 className="text-black px-5 py-1 hover:bg-[#87acec] text-sm">
             SUBSCRIBE
           </h5>
         </div>
       </nav>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

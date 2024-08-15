@@ -1,43 +1,54 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Latest = () => {
-  const [movieData, setMovieData] = useState([]);
+  const [movies, setMovies] = useState([]);
+  const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await fetch('http://localhost:3000/movies');
         const data = await response.json();
-        setMovieData(data);
+        setMovies(data);
       } catch (error) {
-        console.error('Error fetching movie data:', error);
+        console.error('Error fetching movies data:', error);
       }
     };
 
     fetchData();
   }, []);
 
+  const handleToggle = () => {
+    setShowMore(!showMore);
+  };
 
-  
+  const visibleMovies = showMore ? movies : movies.slice(0, 6);
 
   return (
     <section>
-      <h5>LATEST MOVIES</h5>
-      <div className="grid grid-cols-2 gap-1 md:grid-cols-4 py-40">
-        {movieData.map((movie) => (
-          <div key={movie.id} className="w-full flex justify-center items-center">
-            <img
-              src={movie.poster}
-              alt={movie.title}
-              className="w-60 h-full object-cover"
-            />
+      <h5 className="">LATEST MOVIES</h5>
+      <div className="flex flex-wrap justify-center gap-1 py-40">
+        {visibleMovies.map((movie) => (
+          <div key={movie.id} className="flex justify-center items-center p-2 w-1/3 md:w-1/4 lg:w-1/4">
+            <Link to={`/movies/${movie.id}`} className="block">
+              <img
+                src={movie.poster}
+                alt={movie.title}
+                className="w-80 h-100 object-cover"
+              />
+            </Link>
           </div>
         ))}
       </div>
-      <div className="flex justify-end py-5">
-        <button className="bg-[#a6c1ee] text-white px-5 py-1 rounded-full hover:bg-[#87acec] text-2xl">
-          More
-        </button>
+      <button onClick={handleToggle} className="mt-4 p-2 bg-blue-500 text-white">
+        {showMore ? 'Less' : 'More'}
+      </button>
+
+      <div className="mt-4 text-center">
+        <Link to="/add">
+          <button className='p-1 bg-blue-500 text-white'>ADD</button>
+        </Link>
       </div>
     </section>
   );
